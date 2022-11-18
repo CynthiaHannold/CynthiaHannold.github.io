@@ -1,0 +1,20 @@
+
+
+body {
+    background-color:rgb(227, 233, 233);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 20px;
+    max-width: 1200px;
+		margin: 2rem auto;		
+}
+header img {
+  max-width: 1200px;}
+li{display:inline-block; 
+font-family: 'Times New Roman', Times, serif; color: darkslategrey; font-size: xx-large; padding-right: 3em;}
+ul{text-align: center;}
+main{grid-column:2/3;}
+header{grid-column:1/4;}
+nav{grid-column:1/4;}
+footer{grid-column: 1/4;}
